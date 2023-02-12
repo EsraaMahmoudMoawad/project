@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Roboto+Mono:wght@300;400&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --nav: #ffffff ;
+    --Header:#323134;
+    --white:white;
+    --black: rgb(0, 0, 0);
+    --color_1:#6e6e6e;
+    --color_2: #f4f2f2 ;
+    /* 
+    family
+    */
+    font-family: "Inter";
+}
+body {
+    background-color: var(--color_2);
+}
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+section h3 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+section [type="email"] ,[type="password"]  {
+    padding: 0.7em 5em 0.7em 1em;
+    background-color: var(--color_1);
+    border-style: none;
+    color: var(--white);
+    margin-bottom: 2em;
+    box-shadow: 5px 6px 6px 6px #888888;
+}
+section [type="password"] {
+    margin-bottom: 1.2em;
+}
+section [type="submit"] {
+    padding: 0.5em 1em 0.5em 1em;
+    border-style: none;
+    border-radius: 4px;
+    color: var(--white);
+    background-color: var(--color_1);
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+::placeholder {
+    color: var(--white);
+    opacity: 0.8;
+}
+section p {
+    font-size: 0.8em;
+    margin-bottom: 1.5em;
+    margin-left: 0.5em;
+}
